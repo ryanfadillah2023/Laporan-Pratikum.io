@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Praktikum Pemrograman Web</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.15;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: justify;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .subsection {
+            margin-left: 20px;
+        }
+        ol {
+            padding-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .form-container {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Laporan Praktikum Pemrograman Web</h1>
+
+    <div class="section">
+        <h2>1. Pertanyaan seputar Tag</h2>
+        <ol>
+            <li>Apa yang dimaksud dengan tag pada HTML?</li>
+            <li>Apa itu pembuka dan penutup tag? Apakah hal tersebut terdapat pada semua jenis tag?</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>2. Pertanyaan seputar Element</h2>
+        <ol>
+            <li>Apa yang dimaksud dengan element?</li>
+            <li>Apa yang dimaksud dengan tagname, attribute, dan content pada element?</li>
+            <li>Apakah elemen dapat ditumpuk? Apa yang terjadi bila demikian?</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>3. Pertanyaan seputar Anchor</h2>
+        <ol>
+            <li>Apa yang dimaksud dengan anchor?</li>
+            <li>Bagaimana caranya anchor dapat berfungsi, baik dari sisi pendefinisian ataupun pengaplikasiannya?</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>4. Pertanyaan seputar Multimedia</h2>
+        <h3>A. Text</h3>
+        <ol>
+            <li>Sebutkan tag yang dapat digunakan untuk memanipulasi konten teks pada HTML, serta jelaskan fungsinya secara singkat!</li>
+            <li>Sebutkan tag yang dapat digunakan untuk memanipulasi struktur konten teks pada HTML!</li>
+        </ol>
+
+        <h3>B. Image</h3>
+        <ol>
+            <li>Apabila sebuah tag image tidak menampilkan gambar sebagaimana seharusnya, apa saja yang mungkin menyebabkan hal tersebut?</li>
+            <li>Apabila ternyata ada teks yang menggantikan gambar tersebut, apa yang sebenarnya terjadi?</li>
+        </ol>
+
+        <h3>C. Audio</h3>
+        <ol>
+            <li>Bagaimana caranya untuk kita dapat memasukkan audio source dari web (non-lokal)?</li>
+        </ol>
+
+        <h3>D. Video</h3>
+        <ol>
+            <li>Apa yang biasanya terjadi apabila atribut autoplay pada tag video tidak berjalan? Apa yang anda harus lakukan sehingga atribut tersebut dapat berfungsi dengan semestinya?</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>5 Teman Favorit</h2>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>NIM</th>
+                <th>Nama</th>
+            </tr>
+            <tr><td>1</td><td>202332019</td><td>RAFIHANS ARGANI ISLAMI</td></tr>
+            <tr><td>2</td><td>202332023</td><td>YOGA ABDILAH</td></tr>
+            <tr><td>3</td><td>202332024</td><td>RADITHYA PUTRA DEWANTO</td></tr>
+            <tr><td>4</td><td>202332028</td><td>VIOLETTA JINGGA</td></tr>
+            <tr><td>5</td><td>202332037</td><td>FABIANUS HANS HAMONANGAN LUMBAN TOBING</td></tr>
+        </table>
+    </div>
+
+    <div class="form-container">
+        <h2>Form Data Mahasiswa</h2>
+        <form action="FINISH.gif" method="get">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="nim">NIM:</label>
+            <input type="text" id="nim" name="nim" required>
+            
+            <label for="jurusan">Jurusan:</label>
+            <input type="text" id="jurusan" name="jurusan" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
